@@ -10,3 +10,43 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+body {
+    font-family: "Segoe UI";
+    background-color: white;
+    color:black;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+}
+
+nav li {
+    margin-left: 3rem;
+}
+
+.move-right {
+    margin-left: auto;
+}
+/*  */
+/* nav a { */
+    /* color: black; */
+    /* text-decoration: none; */
+/* } */
+/*  */
+/* nav ul { */
+    /* list-style-type: none; */
+    /* position:relative; */
+/* } */
+/*  */
+/* nav li { */
+    /* display: inline; */
+    /* margin-left: 3rem; */
+/* } */
