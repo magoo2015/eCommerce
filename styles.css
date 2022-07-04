@@ -81,8 +81,71 @@ hr {
     position: absolute;
     bottom: 125px;
     right: 90px;
+}
+
+.flex-about {
+    display: flex;
+}
+
+.image {
+    object-position: 50% 50%;
+}
+
+.product-flex {
+    display: grid;
+    grid-template-areas: 
+    "top-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
+    justify-items: center;
+}
+
+.product-image {
+    width: 240px;
+}
+
+.button {
+    background-color: coral;
+    color:white;
+    float: right;
+}
+
+.pimage {
+    width: 100%
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.button-contact {
+    background-color: coral;
+    color: white;
+    float: right;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  */
 /* nav a { */
