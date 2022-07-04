@@ -18,9 +18,10 @@ body {
     margin: 0;
 }
 
-.header-nav {
-    display: flex;
-    list-style-type: none;
+header {
+    background-color: white;
+    position: relative;
+    padding: 1% 8%;
 }
 
 nav a {
@@ -28,13 +29,61 @@ nav a {
     text-decoration: none;
 }
 
+nav ul {
+    list-style-type: none;
+    position: relative;
+    top: 0.7 rem;
+    bottom: 1rem;
+}
+
 nav li {
-    margin-left: 3rem;
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.move-center {
+    list-style-type: none;
+    position: absolute; 
+    top: 10px;
+    left: 80rem;
+    
+}
+
+.move-center li {
+    display: inline;
 }
 
 .move-right {
-    margin-left: auto;
+    float: right; 
 }
+
+hr {
+    background-position: center;
+    border: 1px solid black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    font-size: xx-large;
+    position: absolute;
+    text-align: left;
+    top:125px;
+    left: 90px;
+}
+
+.bottom-right {
+    font-size: xx-large;
+    position: absolute;
+    bottom: 125px;
+    right: 90px;
+
+}
+
 /*  */
 /* nav a { */
     /* color: black; */

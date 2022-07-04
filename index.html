@@ -10,21 +10,40 @@
 <body>
     <header>
         <nav>
-            <ul class="header-nav">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACTS</a></li>
-                <li class="move-right">CART(0)</li>
+            <ul>
+                <div class="move-left">
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#PRODUCTS">PRODUCTS</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#CONTACTS">CONTACTS</a></li>
+                        <div class="move-center">
+                            <ul>
+                                <li><a href="#">Cara</a></li>
+                                <img src="./assets/icons8-pottery-96.png" width="24" height="20">
+                                <li><a href="#">Cara</a></li>
+                            </ul>
+                        </div>
+                        <div class="move-right">
+                            <input type="image" src="./assets/1200px-Google_Magnifying_Glass.svg.png" width="10" height="15" />
+                            <li>CART(0)</li>
+                        </div>
+                </div>
             </ul>
         </nav>
+        <hr>
     </header>
     <main>
-        <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Pottery image">
-        <section class="about">
+        <section>
+            <div class="container">
+                <img class="image" src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Pottery image">
+                <div class="top-left">CERMICS <br> CRAFTED BY <br> HAND....</div>
+                <div class="bottom-right">...FROM THE <br> GROUND UP</div>
+            </div>
+             
+        </section>
+        <section>
             <h1>ABOUT US</h1>
-            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Vase Dame image">
-            <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="Plant in white pot">
+            <hr>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet mollis ex. Ut aliquet sollicitudin nisi quis porta. 
                 Donec in leo ut quam accumsan consequat. 
@@ -32,22 +51,15 @@
                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
                 Integer fringilla nec eros lacinia laoreet. 
                 Suspendisse accumsan lorem sit amet lorem feugiat sodales et non eros. 
-                Phasellus sagittis, diam vitae vestibulum vulputate, tortor lectus semper nulla, a feugiat nunc arcu imperdiet eros. Nulla facilisi.
-
-                Duis a mollis elit. Phasellus vitae magna eget mi tincidunt accumsan nec in sapien. 
-                Mauris egestas mollis risus, et accumsan lorem euismod non. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Morbi laoreet nunc eros, finibus facilisis odio vulputate nec. 
-                Praesent eget odio eget urna congue varius. Vestibulum vitae neque placerat, vestibulum erat id, tristique erat.
-                Duis eros nulla, sollicitudin quis massa at, dapibus elementum quam. 
-                Aenean mauris tellus, gravida ut metus eget, vestibulum condimentum augue. 
-                Aenean commodo molestie tellus, vel vestibulum eros tincidunt eu. 
-                Donec porttitor dictum elit, vel viverra lacus consectetur consequat. 
-                Suspendisse potenti. 
-                Nunc vestibulum quam sed mi ornare, sit amet placerat nibh gravida. 
-                Cras pharetra justo lacus, eu facilisis nisi sodales congue. Ut at imperdiet tortor, ut lobortis mi. 
-                Nunc tincidunt sapien dolor, id ornare lorem euismod nec.  
-            </p>
-            
+                Phasellus sagittis, diam vitae vestibulum vulputate, tortor lectus semper nulla, a feugiat nunc arcu imperdiet eros. Nulla facilisi
+            </p>      
+        </section>
+        <section>
+            <h1>OUR PRODUCTS</h1>
+        </section>
+        
+        <section>
+            <h1>CONTACT US</h1>
         </section>
     </main>
     <footer></footer>
