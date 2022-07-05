@@ -105,7 +105,7 @@ hr {
 }
 
 .button {
-    background-color: coral;
+    background-color: #bf7631 ;
     color:white;
     float: right;
 }
@@ -123,13 +123,23 @@ hr {
 }
 
 .button-contact {
-    background-color: coral;
+    background-color: #bf7631;
     color: white;
     float: right;
 
 }
 
+.footer-end {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: coral;
+}
 
+.footer-end li {
+    display: inline;
+}
 
 
 
